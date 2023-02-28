@@ -149,9 +149,9 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Code Rushers!</h1>
           <div className={styles.description}>
-            Its an NFT collection for developers in Crypto.
+            Its a Limited Edition NFT collection for Cricket Fans.
           </div>
           <div className={styles.description}>
             {numberOfWhitelisted} have already joined the Whitelist
@@ -159,7 +159,7 @@ export default function Home() {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./crypto-devs.svg" />
+          <img className={styles.image} src="./team.png" />
         </div>
       </div>
 
